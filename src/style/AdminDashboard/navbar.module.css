@@ -1,3 +1,5 @@
-.div{
-    background-color: pink;
+div {
+  background-color: pink;
+  font-family: "Karla", sans-serif;
+  font-size: 80px;
 }
