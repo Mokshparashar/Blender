@@ -1,5 +1,52 @@
-div {
-  background-color: pink;
+
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Karla", sans-serif;
-  font-size: 80px;
+  background-color: white;
+  padding: 0rem 1rem;
+  box-shadow: 0px -1px 1px 1px black;
+}
+
+.logoBox{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.hamburger{
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blueviolet;
+}
+
+.logoName{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: .4rem;
+  
+}
+
+.profileBox{
+  margin-right: 3rem;
+}
+
+.profileImg{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid blueviolet;
 }
