@@ -15,17 +15,33 @@
   box-shadow: -1px 0px 3px 0px black;
 }
 
-.sidebarLogoBox {
+.sidebarLogo {
   font-size: 2rem;
-  border: 2px solid red;
-  padding-left: 1rem;
+
+  /* padding-left: 1rem; */
   margin-top: 1rem;
 }
-.sidebarLogoBox::after {
+.sidebarLogo::after {
   content: "twitter";
   font-size: 1rem;
   font-family: "Karla", sans-serif;
   font-weight: 900;
   opacity: 0.4;
   color: blueviolet;
+}
+
+.sidebarLogoBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+}
+
+.sidebarCancelBtn {
+  color: blueviolet;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
